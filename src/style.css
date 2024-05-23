@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 300vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#formContainer {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin-bottom: 20px;  /* Adjust as necessary for spacing */
+}
+
+#tokenForm input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#tokenForm button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tokenForm button:hover {
+  background-color: #0056b3;
+}
